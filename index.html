@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Le Wagon - Web Development Sprint</title>
+
+  <!-- Change these Google fonts with your own choice -->
+  <link href="https://fonts.googleapis.com/css?family=Chivo:700|Overpass:400,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <body style="background-color:#ffffe0;">
+</body>
+  <!-- Banner section -->
+<img alt="image" src="images/2.jpg" width="500" height="300">
+
+  <!-- Cards section -->
+<h2 align="center">L'histoire de l'école</h2>
+<center>
+<img src="images/shanghai.jpg" align="center" /></center>
+
+<p>En 2004, Audencia s’associe à l’initiative des Nations Unies qui rassemble des entreprises, le monde du travail et la société civile autour de dix principes universels relatifs aux droits de l'homme, aux normes du travail et à l'environnement.
+
+L’établissement devient la 1ère école de management en France à avoir adhéré au Global Compact.
+
+Audencia développe et déploie depuis lors son expertise en matière de RSE et l’intègre dans sa recherche, ses enseignements et son management interne.</p>
+
+<p>En 2010, l’établissement s’allie les forces de SciencesCom (école de la communication et des médias fondée en 1984) et de l’Ecole Atlantique de Commerce (formation post bac créée en 1981), programmes accrédités et classés parmi les meilleurs dans leur champ d’expertise.
+
+Ainsi, Audencia Business School propose aujourd’hui des programmes en management et en communication allant du bachelor au doctorat. Opérant en France comme à l’international, l’établissement a développé une offre executive qui conçoit des solutions de formation au service des enjeux stratégiques et des objectifs opérationnels des entreprises.
+
+Audencia Business School se déploie aujourd’hui sur 4 sites à Nantes, un campus à Paris et un Cooperative Center for Studies à Beijing.</p>
+
+<p>Depuis 2013, l’École Centrale de Nantes, Audencia et l’école nationale supérieure d’architecture de Nantes (ensa Nantes) forment une alliance stratégique qui mise sur leur complémentarité. Cette alliance conjugue l’ingénierie, le management, l’architecture et la création afin d’enrichir l’enseignement, la recherche, les relations avec les entreprises et la portée internationale des trois écoles.
+</p>
+<center>
+<img src="images/a.jpg" align="center">
+</center>
+<!-- index.html -->
+<head>
+  <!-- [...] -->
+  <link href="https://fonts.google.com/specimen/Oswald">
+  <!-- [...] -->
+</head>
+  <!-- Footer section -->
+</body>
+<!DOCTYPE html>
+<title>My Example</title>
+
+<style>
+.myForm {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 0.8em;
+  width: 20em;
+  padding: 1em;
+  border: 1px solid #ccc;
+}
+
+.myForm * {
+  box-sizing: border-box;
+}
+
+.myForm fieldset {
+  border: none;
+  padding: 0;
+}
+
+.myForm legend,
+.myForm label {
+  padding: 0;
+  font-weight: bold;
+}
+
+.myForm label.choice {
+  font-size: 0.9em;
+  font-weight: normal;
+}
+
+.myForm input[type="text"],
+.myForm input[type="tel"],
+.myForm input[type="email"],
+.myForm input[type="datetime-local"],
+.myForm select,
+.myForm textarea {
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 0.9em;
+  padding: 0.3em;
+}
+
+.myForm textarea {
+  height: 100px;
+}
+
+.myForm button {
+  padding: 1em;
+  border-radius: 0.5em;
+  background: #eee;
+  border: none;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+.myForm button:hover {
+  background: #ccc;
+  cursor: pointer;
+}
+</style>
+
+
+<form class="myForm" method="get" action="/html/codes/html_form_handler.cfm">
+  <p>
+    <label>Nom
+      <input type="text" name="customer_name" required>
+    </label> 
+  </p>
+
+  <p>
+    <label>Prénom 
+      <input type="tel" name="phone_number">
+    </label>
+  </p>
+
+  <p>
+    <label>Email 
+      <input type="email" name="email_address">
+    </label>
+  </p>
+
+  <fieldset>
+    <legend>Quel programme vous intéresse ?</legend>
+    <p><label> <input type="radio" name="taxi" required value="car"> Bachelor </label></p>
+    <p><label> <input type="radio" name="taxi" required value="van"> Master </label></p>
+    <p><label> <input type="radio" name="taxi" required value="tuktuk"> MBA </label></p>
+  </fieldset>
+
+  <fieldset>
+    <legend>Quel est votre niveau d'études </legend>
+    <p><label> <input type="checkbox" name="extras" value="baby"> Baccalauréat </label></p>
+    <p><label> <input type="checkbox" name="extras" value="wheelchair"> Licence </label></p>
+    <p><label> <input type="checkbox" name="extras" value="tip"> Master </label></p>
+  </fieldset>
+
+  <p>
+    <label>Date de début
+      <input type="datetime-local" name="pickup_time" required>
+    </label>
+  </p>
+
+  <p>
+    <label>Choisissez votre campus
+      <select id="pickup_place" name="pickup_place">
+        <option value="" selected="selected">City Campus</option>
+        <option value="office" >Atlantic Campus</option>
+        <option value="town_hall" >Sciences com</option>
+        <option value="telepathy" >Je n'ai pas de préférences</option>
+      </select>
+    </label> 
+  </p>
+
+  <p>
+    <label>Details que vous souhaitez nous fournir
+      <textarea name="comments" maxlength="500"></textarea>
+    </label>
+  </p>
+
+  <p><button>Envoyer la requête</button></p>
+
+</form>
+<p>Retrouvez-nous sur:</p>
+
+<ul>
+  <li><a href="https://www.audencia.com/">Notre site internet</a></li>
+  <li><a href="https://twitter.com/audencia?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a></li>
+  <li><a href="https://www.instagram.com/audencia/?hl=en">Instagram</a></li>
+</ul>
+</html>

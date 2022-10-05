@@ -1,0 +1,21 @@
+/* style.css */
+body {
+  font-family: Overpass;
+  color:#071568;
+  font-size: 17px;
+}
+
+h1, h2, h3 {
+  font-family: Chivo;
+}
+
+h2 {
+  color:##000000;
+  font-weight: bold;
+  text-decoration: underline;
+  transition: .3s;
+}
+
+a:hover {
+  color:#FD7501;
+}
